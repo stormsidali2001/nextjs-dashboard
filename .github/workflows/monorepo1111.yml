@@ -62,7 +62,7 @@ jobs:
           JOB_NAME: ${{ github.job }}
           REPO_NAME: ${{ github.repository }}
           WORKFLOW_NAME: ${{ github.workflow }}
-          COMPONLY_BACKEND_URL: https://backend-production-e808.up.railway.app
+          COMPONLY_BACKEND_URL: https://d231-154-247-11-129.ngrok-free.app
           COMPONLY_CLI_ENV: development
         run: |
           ls -a 
